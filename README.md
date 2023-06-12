@@ -37,33 +37,3 @@ $ bundle exec jekyll serve
 ```
 Now, feel free to edit the content.
 After you are done, **commit** your final changes.
-
-### Step 3. Features (for HJ)
-
-1. To change the H.J.Chang page in _config.yml and _pages/about.md
-2. To change the Research page in _pages/research.md. Images are in assets/img/research.
-3. To change the Team page in the _pages/student.md. Same as Openings, Teaching and Contact pages.
-4. Your publications page is generated automatically from your BibTex bibliography.
-Simply edit `_bibliography/papers.bib`. Following:
-```bash
-@inproceedings{tse2022collaborative,
-  title={Collaborative Learning for Hand and Object Reconstruction with Attention-guided Graph Convolution},
-  author={Tze Ho Elden Tse and Kwang In Kim and Ales Leonardis and Hyung Jin Chang},
-  year={2022},
-  booktitle={IEEE Computer Vision and Pattern Recognition (CVPR)},
-  arxiv={2204.13062},
-  video = {},
-  code = {},
-  website = {},
-  abbr = {CVPR'22},
-  img= {/assets/img/paper/EldenCVPR22.jpg},
-  selected = {true}
-}
-```
-### Step 4. Personal Page (for Group Members)
-If you want to have your own personal academic page, we also provide a template for you.
-
-1. Repeat Step 1 and Setp 2.
-2. We prepare a template in _pages/personal_page/your_name.md
-3. Please save the images of your personal paper in assets/img/team/your_name.
-4. Chang, commit, push, and pull request. Your personal page will become available at https://cvlab-uob.github.io/team/your_name.
